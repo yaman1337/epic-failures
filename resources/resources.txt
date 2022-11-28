@@ -1,0 +1,47 @@
+cdn of ionic icons
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+BASIC USAGE
+
+<ion-icon name="heart"></ion-icon>
+
+
+CUSTOM icons
+
+<ion-icon src="/path/to/external/file.svg"></ion-icon>
+
+
+VARIANTS
+
+<ion-icon name="heart"></ion-icon> <!--filled-->
+<ion-icon name="heart-outline"></ion-icon> <!--outline-->
+<ion-icon name="heart-sharp"></ion-icon> <!--sharp-->   
+
+SIZE
+
+<ion-icon name="heart"></ion-icon> <!--filled-->
+<ion-icon name="heart-outline"></ion-icon> <!--outline-->
+<ion-icon name="heart-sharp"></ion-icon> <!--sharp-->
+
+font SIZE
+
+ion-icon {
+  font-size: 64px;
+}
+
+
+common icons
+
+<ion-icon name="apps-outline"></ion-icon>
+<ion-icon name="arrow-forward-outline"></ion-icon>
+<ion-icon name="checkmark-done-outline"></ion-icon>
+<ion-icon name="close-outline"></ion-icon>
+<ion-icon name="lock-closed-outline"></ion-icon>
+<ion-icon name="log-out-outline"></ion-icon>
+<ion-icon name="reorder-four-outline"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="close-circle-outline"></ion-icon>
+<ion-icon name="location-outline"></ion-icon>

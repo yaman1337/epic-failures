@@ -1,0 +1,139 @@
+
+      :root {
+        --light-gray: #e2f1f9;
+        --dark-text: rgb(120, 120, 120);
+      }
+
+      .courses-section {
+        padding: 2rem 2.5rem;
+      }
+      .courses-section .subtitle {
+        color: var(--dark-text);
+      }
+      .courses-section .title {
+        font-size: 1.3rem;
+      }
+      .courses-section .sortby-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .select-group {
+        display: flex;
+      }
+      .section-item {
+        margin-bottom: 10px;
+        padding: 0.6rem 1rem;
+        background-color: #fff;
+        margin: 0px 0.5rem;
+        border: 1px solid #eeee;
+        border-radius: 0.3rem;
+        box-shadow: 0 2.5px 5px #eeee;
+      }
+
+      .search-input-section{
+        margin-top: 15px;
+      }
+      select {
+        border: none;
+        background-color: transparent;
+        font-weight: light;
+        padding: 0.3rem;
+      }
+      .search-input {
+        padding: 0.7rem 1rem;
+        border: 1px solid #dddd;
+        border-radius: 0.3rem;
+      }
+      .search-button {
+        border: none;
+        padding: 0.7rem 1rem;
+        background-color: #2b4eff;
+        border-radius: 0.3rem;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      .search-button:hover {
+        background-color: #2a49e6;
+      }
+      .sort-title {
+        margin: 10px 0px;
+      }
+      .courses-collection {
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 0.7rem;
+      }
+      .course-card {
+        max-width: 300px;
+        background-color: #fff;
+        padding: 1.2rem;
+        border-radius: 0.3rem;
+        margin: 15px auto;
+      }
+      .course-card .course-header .course-featured-image {
+        width: 100%;
+        border-radius: 0.3rem;
+      }
+      .course-card .course-title {
+        font-size: 1.1rem;
+        margin-top: 7px;
+      }
+      .course-card .course-information {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+        margin: 10px 0;
+      }
+      .course-card .course-info-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .course-info-text {
+        color: var(--dark-text);
+        padding-left: 0.3rem;
+      }
+      .course-rating {
+        margin: 15px 0 0 0;
+        color: rgb(197, 197, 19);
+        font-size: 1.1rem;
+      }
+
+      .course-rating ion-icon{
+        font-size: 20px;
+      }
+      .course-checkout {
+        display: flex;
+        justify-content: space-between;
+      }
+      .course-price {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+      .course-checkout-btn {
+        border: none;
+        background-color: #2b4eff;
+        border-radius: 0.3rem;
+        padding: 0.5rem 1.5rem;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .course-checkout-btn:hover {
+        background-color: #2948e0;
+      }
+
+      .course-card:hover {
+        cursor: pointer;
+        transition: 0.7s;
+        transition-timing-function: cubic-bezier(0.63, 0.77, 0.64, 0.35);
+        transform: translateY(-5px);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
+      }

@@ -1,0 +1,107 @@
+a {
+    text-decoration: none;
+    color: #000;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.7rem 1.2rem;
+    box-shadow: 0 2.5px 10px #dddd;
+    z-index: 9999999;
+    background-color: white !important;
+  }
+
+  #navbar-brand img {
+    width: 50px;
+  }
+
+  .nav {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .nav-item {
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.1s;
+  }
+
+  .nav-item:hover {
+    color: #2b4eef;
+  }
+
+  .nav-button-group {
+    padding: 0.8rem 1rem;
+    border: none;
+    background-color: #2b4eef;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.2rem;
+  }
+
+  .nav-button-group:hover {
+    background-color: #2647da;
+  }
+
+  .auth-section button {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .vertical-seperator {
+    border: 1px solid #fff;
+    margin-right: 0.5rem;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  @media (max-width: 900px) {
+    .navbar {
+      position: relative;
+    }
+
+    .hamburger {
+      display: block;
+    }
+
+    .nav {
+      transform: translateX(100%);
+    }
+
+    .navbar .nav {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background-color: lightblue;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar .nav-item {
+      color: #000;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+  }
